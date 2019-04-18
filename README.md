@@ -19,11 +19,12 @@ This is a discord bot that will send the bee movie script, line by line with a d
 
 ## Advanced Usage
 You can run the program with command line arguments in advance.
-```| Variables         |     Arguments       |    Usage                                    |
+
+| Variables         |     Arguments       |    Usage                                    |
 | ------------------|---------------------|---------------------------------------------|
 | Auth Token        | `--token`           | `node index.js --token <insert token>`      |
 | Channel ID        | `-c` or `--channel` | `node index.js --channel <insert channelID>`|
-| Timeout (Optional)| `-t` or `--timeout` | `node index.js --timeout 5000`              |```
+| Timeout (Optional)| `-t` or `--timeout` | `node index.js --timeout 5000`              |
 
 * Side Note
 Timeout is optional because the default for it is 1000. The value of timeout is in milliseconds, so if you want 5 second delay per message, then do 5 * 1000 = 5000 to put in the argument.
