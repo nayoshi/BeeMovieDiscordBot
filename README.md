@@ -26,4 +26,4 @@ You can run the program with command line arguments in advance.
 | Timeout (Optional)| `-t` or `--timeout` | `node index.js --timeout 5000`              |
 
 * Side Note
-⋅⋅⋅Timeout is optional because the default for it is 1000. The value of timeout is in milliseconds, so if you want 5 second delay per message, then do 5 * 1000 = 5000 to put in the argument.
+Timeout is optional because the default for it is 1000. The value of timeout is in milliseconds, so if you want 5 second delay per message, then do 5 * 1000 = 5000 to put in the argument.
