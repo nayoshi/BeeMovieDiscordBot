@@ -1,11 +1,9 @@
 # Bee Movie Discord Bot
 
 ## Description
----
 ### This is a discord bot that will send the bee movie script, line by line with a delay. It's pretty straight forward.
 
 ## Why?
----
 ![alt text](https://github.com/Nayoshi12/BeeMovieDiscordBot/blob/master/meme.png?raw=true "Dankest meme in the west")
 
 ## How to Run?
