@@ -13,8 +13,17 @@ This is a discord bot that will send the bee movie script, line by line with a d
 3. Clone this repository
 4. Run
 > npm install
-5. Create a file named `token` exactly (no file extension) and copy paste the bot authentication token in to the file.
-6. To start the bot, type 
+5. To start the bot, type 
 > npm start
-7. The console will output 
->`<Bot name> is ready!`
+6. The console will ask a couple of question to authenticate.
+
+## Advanced Usage
+You can run the program with command line arguments in advance.
+| Variables         |     Arguments       |    Usage                                    |
+| ------------------|---------------------|---------------------------------------------|
+| Auth Token        | `--token`           | `node index.js --token <insert token>`      |
+| Channel ID        | `-c` or `--channel` | `node index.js --channel <insert channelID>`|
+| Timeout (Optional)| `-t` or `--timeout` | `node index.js --timeout 5000`              |
+
+* Side Note
+⋅⋅⋅Timeout is optional because the default for it is 1000. The value of timeout is in milliseconds, so if you want 5 second delay per message, then do 5 * 1000 = 5000 to put in the argument.
