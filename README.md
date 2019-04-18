@@ -6,7 +6,7 @@
 
 ## Why?
 ---
-> insert meme here
+![alt text](https://github.com/Nayoshi12/BeeMovieDiscordBot/blob/master/meme.png?raw=true "Dankest meme in the west")
 
 ## How to Run?
 1. You need to create a discord bot and a discord server for it to join.
